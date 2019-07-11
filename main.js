@@ -49,6 +49,7 @@ function getMainPage(){
 }
 
 // logs in with cookie
+// will display whether user logged in successfully or not
 function login() {
   getCSRFToken((err, res) => {
     var csrf_token = res;
