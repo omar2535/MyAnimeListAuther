@@ -1,3 +1,6 @@
 node_modules/*
 package-lock.json
 credentials.json
+cookies.json
+credentials/*
+node_modules
